@@ -28,6 +28,7 @@
   "dependencies": {
     "@strapi/provider-email-sendmail": "4.0.2",
     "@strapi/utils": "4.0.2",
+    "@strapi/admin": "4.0.2",
     "lodash": "4.17.21"
   },
   "devDependencies": {

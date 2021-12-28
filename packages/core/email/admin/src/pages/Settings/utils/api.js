@@ -1,4 +1,4 @@
-import { axiosInstance } from '../../../../../../admin/admin/src/core/utils';
+import { axiosInstance } from '@strapi/admin/admin/src/core/utils';
 
 const fetchEmailSettings = async () => {
   const { data } = await axiosInstance.get('/email/settings');
